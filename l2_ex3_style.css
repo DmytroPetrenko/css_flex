@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+
+.flex-container{
+    background: #8080ff;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.flex-element{
+    background: #008040;
+    height: 100px;
+    width: 100px;
+}
+
+.first{
+    justify-content: center;
+}
+
+.second{
+    align-items: center;
+}
+
+.third{
+    justify-content: center;
+    align-items: center;
+}
