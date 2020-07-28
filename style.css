@@ -8,15 +8,15 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-.menu-container {
+.container {
   max-width: 1250px;
   margin: 0 auto;
-  background-color: #313030;
 }
 
 .menu {
   display: flex;
   justify-content: center;
+  background-color: #313030;
 }
 
 .menu a {
@@ -33,7 +33,7 @@ body {
   background-color: #ff3f40;
 }
 
-.flex-container {
+.flex {
   display: flex;
   justify-content: center;
   min-height: 400px;
