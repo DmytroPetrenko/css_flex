@@ -8,7 +8,7 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-.container {
+.menu-container {
   max-width: 1250px;
   margin: 0 auto;
   background-color: #313030;
@@ -29,6 +29,27 @@ body {
   color: #e0e0e0;
 }
 
-.menu :hover{
-    background-color: #ff3f40;
+.menu :hover {
+  background-color: #ff3f40;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  min-height: 400px;
+}
+
+.first-block {
+  width: 300px;
+  background-color: chocolate;
+}
+
+.second-block {
+  width: 600px;
+  background-color: cornflowerblue;
+}
+
+.third-block {
+  width: 300px;
+  background-color: darkkhaki;
 }
