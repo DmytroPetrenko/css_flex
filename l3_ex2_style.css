@@ -1,0 +1,15 @@
+.menu {
+  justify-content: space-between;
+}
+
+.menu :hover {
+  background-color: #313030;
+}
+
+.menu .left, .menu .right {
+    padding: 40px 0px 35px;
+}
+
+.menu .left a:hover, .menu .right a:hover{
+    background: #ff3f40;
+}
