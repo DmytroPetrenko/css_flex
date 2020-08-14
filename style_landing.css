@@ -151,3 +151,21 @@ h5 {
   width: 130px;
   height: 2px;
 }
+
+.list-group-personal a{
+  color: #313030;
+}
+
+.list-group-item.active{
+  background: #fff;
+  color: #007bff;
+}
+
+.list-group-item{
+  border: 0;
+}
+
+.list-group-item:hover{
+  border: 1px solid #007bff !important;
+  text-decoration: none;
+}
